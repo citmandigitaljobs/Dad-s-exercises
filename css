@@ -1,27 +1,44 @@
 .exercise-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: grid; 
+  grid-template-columns: repeat(4, 2fr);
+grid-template-columns: auto;
   padding-bottom: 20px;
+  column-gap: 100px;
+  row-gap: 100px;
   border: 1px solid purple;
 }
 
 .contain-all {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  width: 300px;
-  padding-bottom: 30px;
-  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 30px;
+  margin: 0px;
   border: 10px solid green;
+}
+
+.exercise-tile{
+  display: flex;
+/*   flex-direction: row; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 20px;
+  border: 2px solid orange;
 }
 
 .exercise-box img {
   display: block;
   margin: auto;
   width: 100%;
+  height: 100%;
   border-radius: 5%;
-  border: 5px solid red;
+  border: 2px solid red;
 }
 
 .exercise-name {
@@ -33,15 +50,26 @@
   font-weight: bold;
 }
 
+.sneak-peek {
+  text-align: center;
+}
+
 .hover-box {
   display: none;
-  width: 100%;
+/*   width: 100%; */
   border: 5px solid blue;
 }
 
-a:hover + .hover-box,
+/* a:hover + .hover-box,
 .hover-box:hover {
   display: block;
+  position: relative;
+  z-index: 100;
+} */
+
+a:hover + .hover-box,
+.hover-box:hover {
+  display: inline-block;
   position: relative;
   z-index: 100;
 }
