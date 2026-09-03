@@ -81,7 +81,7 @@
     align-content: center;
     text-align: center;
     padding: 10px;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
   .limerick {
     display: grid;
@@ -221,8 +221,71 @@ body {
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
-    row-gap: 10px;
-/*                 border: 5px solid blue; */
+    row-gap: 10px;  
+    border-bottom: 2px solid grey;
+    /*                 border: 5px solid blue; */
+  }
+
+  .repetition-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+/*     border: 5px solid blue; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+/*     border: 5px solid yellow; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+
+    /*      border: 5px solid yellow; */
+
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+/*     border: 5px solid pink; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+/*     border: 5px solid brown; */
+  }
+  
+  .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
   }
 
   .physio-exercise-name {
@@ -535,16 +598,77 @@ button {
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .physio {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: auto;
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
-/*                 border: 5px solid blue; */
+    border-bottom: 2px solid grey;
+    /*                     border: 5px solid orange; */
   }
 
+  .repetition-tiles {
+    display: grid;
+    /*     grid-template-columns: 2fr, 2fr; */
+    /*                       border: 5px solid blue; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    /*      border: 5px solid purple; */
+  }
+
+  .building-up {
+    display: grid;
+    /*     grid-template-columns: repeat(1, 1fr); */
+    padding: 15px;
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid pink; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+  
+    .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
+  }
+  
+  
   .physio-exercise-name {
     font-size: 25px;
     text-align: center;
@@ -573,7 +697,7 @@ button {
     row-gap: 5px;
     /*     padding-bottom: 50px; */
     /*     justify-content: space-between; */
-/*             border: 5px solid yellow; */
+    /*             border: 5px solid yellow; */
   }
 
   .exercise-tile {
@@ -789,19 +913,19 @@ button {
     cursor: pointer;
   }
   /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 /* MOBILE RESPONSIVENESS MOBILE LANDSCAPE FINISH */
@@ -812,8 +936,8 @@ button {
 @media screen and (min-width: 481px) and (max-width: 520px) {
   .physio {
     display: grid;
-/*     grid-template-columns: repeat(2, 1fr); */
-        grid-template-columns: repeat(3, 1fr);
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
@@ -822,8 +946,64 @@ button {
     row-gap: 10px;
     /*     justify-content: space-between; */
     /*                     border: 5px solid green; */
+    border-bottom: 2px solid grey;
   }
 
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid pink; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+  
+   .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
+  }
+  
   .physio-exercise-name {
     font-size: 20px;
     text-align: center;
@@ -851,7 +1031,7 @@ button {
     margin: auto;
     /*     row-gap: 10px; */
     justify-content: space-between;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
 
   .exercise-tile {
@@ -1071,21 +1251,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 /* MOBILE RESPONSIVENESS MOBILE LANDSCAPE FINISH */
@@ -1098,8 +1278,8 @@ button {
 @media screen and (min-width: 521px) and (max-width: 768px) {
   .physio {
     display: grid;
-/*     grid-template-columns: repeat(2, 1fr); */
-        grid-template-columns: repeat(3, 1fr);
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
@@ -1107,7 +1287,63 @@ button {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*                         border: 5px solid green; */
+    border-bottom: 2px solid grey;
+    /*                             border: 5px solid green; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: auto, auto;
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid brown; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid red; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+  
+  .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
   }
 
   .physio-exercise-name {
@@ -1147,7 +1383,7 @@ button {
     display: grid;
     place-items: center;
     padding: 5px;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
 
   .exercise-box {
@@ -1369,21 +1605,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
@@ -1394,7 +1630,7 @@ button {
     margin: auto;
     /*     row-gap: 10px; */
     justify-content: space-between;
-/*     border: 5px solid red; */
+    /*     border: 5px solid red; */
   }
 
   .exercise-tile {
@@ -1623,21 +1859,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 /* MOBILE RESPONSIVENESS MOBILE LANDSCAPE FINISH */
@@ -1652,6 +1888,7 @@ button {
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .physio {
     display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: auto;
     background-color: white;
@@ -1660,9 +1897,65 @@ button {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-    /*             border: 5px solid yellow; */
+    border-bottom: 2px solid grey;
+    /*                             border: 5px solid green; */
   }
 
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: auto, auto;
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid brown; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid red; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+
+    .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
+  }
+  
   .physio-exercise-name {
     font-size: 25px;
     text-align: center;
@@ -1691,7 +1984,7 @@ button {
     margin: auto;
     row-gap: 10px;
     justify-content: space-between;
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
   }
 
   .exercise-tile {
@@ -1717,7 +2010,7 @@ button {
     display: block;
     margin: auto;
     height: 150px;
-/*         border: 2px solid orange; */
+    /*         border: 2px solid orange; */
   }
 
   .exercise-name {
@@ -1920,21 +2213,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 /* MOBILE RESPONSIVENESS TABLET LANDSCAPE FINISH */
 
@@ -1944,6 +2237,7 @@ button {
 @media screen and (min-width: 991px) and (max-width: 1024px) {
   .physio {
     display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: auto;
     background-color: white;
@@ -1952,7 +2246,62 @@ button {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid orange; */
+    border-bottom: 2px solid grey;
+    /*                             border: 5px solid green; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: auto, auto;
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid brown; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid red; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+   .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
   }
 
   .physio-exercise-name {
@@ -1983,7 +2332,7 @@ button {
     margin: auto;
     row-gap: 10px;
     justify-content: space-between;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
 
   .exercise-box {
@@ -1996,7 +2345,7 @@ button {
     padding: 10px;
     margin-bottom: 25px;
     position: relative;
-/*     border: 10px solid pink; */
+    /*     border: 10px solid pink; */
   }
 
   .exercise-box img {
@@ -2204,21 +2553,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 /* MOBILE RESPONSIVENESS MEDIUM DEVICE FINISH */
@@ -2228,6 +2577,7 @@ button {
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .physio {
     display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: auto;
     background-color: white;
@@ -2235,8 +2585,64 @@ button {
     margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
+    border-bottom: 2px solid grey;
     /*     justify-content: space-between; */
-    /*         border: 5px solid yellow; */
+    /*                             border: 5px solid green; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: auto, auto;
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid brown; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid red; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid green; */
+  }
+  
+    .more-instruction {
+   color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
   }
 
   .physio-exercise-name {
@@ -2267,7 +2673,7 @@ button {
     margin-left: 15px;
     row-gap: 10px;
     justify-content: space-between;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
 
   .exercise-box {
@@ -2472,21 +2878,21 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* The Close Button */
-.close-nine {
-  color: red;
-  float: right;
-  font-size: 45px;
-  font-weight: bold;
-}
 
-.close-nine:hover,
-.close-nine:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+  /* The Close Button */
+  .close-nine {
+    color: red;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .close-nine:hover,
+  .close-nine:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 /* MOBILE RESPONSIVENESS LARGE DEVICE FINISH */
 
@@ -2496,15 +2902,72 @@ button {
 @media screen and (min-width: 1201px) {
   .physio {
     display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: auto;
     background-color: white;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
     margin: auto;
     row-gap: 10px;
+    border-bottom: 2px solid grey;
     /*     justify-content: space-between; */
-    /*         border: 5px solid yellow; */
+    /*                             border: 5px solid grey; */
+  }
+
+  .physio-exercise {
+    display: grid;
+    grid-template-columns: auto, auto;
+    /*     align: center; */
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid brown; */
+  }
+
+  .building-up {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    margin: 5px;
+    /*      border: 5px solid yellow; */
+
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #dadada;
+    /*     border: 5px solid red; */
+  }
+
+  .repetitions {
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    /*       border: 5px solid brown; */
+  }
+  
+   .more-instruction {
+   color: black;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid brown; */
+  }
+  
+  .slow-days {
+   color: black;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+/*         border: 5px solid green; */
+    padding: 25px;
+  
   }
 
   .physio-exercise-name {
@@ -2730,7 +3193,7 @@ button {
     color: #483d8b;
     padding-bottom: 20px;
     row-gap: 10px;
-/*         border: 2px solid red; */
+    /*         border: 2px solid red; */
   }
 
   .no-bullets {
