@@ -241,24 +241,155 @@ body {
 /*     border: 5px solid yellow; */
   }
 
-  .building-up {
+  
+   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-
     /*      border: 5px solid yellow; */
-
     margin: 10px;
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
+  }
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
 /*     border: 5px solid pink; */
   }
 
@@ -624,24 +755,157 @@ button {
     /*      border: 5px solid purple; */
   }
 
-  .building-up {
+    .building-up-marching {
     display: grid;
-    /*     grid-template-columns: repeat(1, 1fr); */
-    padding: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid pink; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
   }
-
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
+  }
+  
   .repetitions {
     color: black;
     font-size: 40px;
@@ -958,24 +1222,155 @@ button {
     /*      border: 5px solid yellow; */
   }
 
-  .building-up {
+     .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 27px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid pink; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
+  }
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -1300,24 +1695,155 @@ button {
     /*      border: 5px solid brown; */
   }
 
-  .building-up {
+     .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 27px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid red; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
+  }
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -1910,26 +2436,157 @@ button {
     /*      border: 5px solid brown; */
   }
 
-  .building-up {
+     .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 27px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid red; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
   }
-
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
+  }
+  
   .repetitions {
     color: black;
     font-size: 40px;
@@ -2259,26 +2916,157 @@ button {
     /*      border: 5px solid brown; */
   }
 
-  .building-up {
+     .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid red; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
   }
-
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
+  }
+  
   .repetitions {
     color: black;
     font-size: 40px;
@@ -2599,24 +3387,155 @@ button {
     /*      border: 5px solid brown; */
   }
 
-  .building-up {
+    .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid red; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
+  }
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -2924,24 +3843,155 @@ button {
     /*      border: 5px solid brown; */
   }
 
-  .building-up {
+    .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    margin: 5px;
     /*      border: 5px solid yellow; */
-
+    margin: 10px;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #5c81a1;
+    color: #black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 50%;
-    background-color: #dadada;
-    /*     border: 5px solid red; */
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
+  }
+  
+  .building-up-balancing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #d7b8f3;
+/*     border: 5px solid pink; */
+  }
+   
+  .building-up-offset {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #aacc74;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f4d2e5;
+/*     border: 5px solid pink; */
+  }
+    .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #adfaf8;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #f3d5a3;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #fc5469;
+/*     border: 5px solid pink; */
+  }
+  
+   .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    margin: 10px;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 50%;
+    background-color: #b5baca;
+/*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -2952,6 +4002,7 @@ button {
     /*       border: 5px solid brown; */
   }
   
+   
    .more-instruction {
    color: black;
     font-size: 20px;
