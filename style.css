@@ -213,210 +213,350 @@ body {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS MOBILE PORTRAIT START */
 @media screen and (max-width: 320px) {
-  .physio {
+  .physio-1 {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(1fr);
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
-    row-gap: 10px;  
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
     border-bottom: 2px solid grey;
-    /*                 border: 5px solid blue; */
+  }
+
+  .physio {
+    display: grid;
+    /*     grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(1fr);
+    grid-auto-columns: auto;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+    row-gap: 10px;
+    border-bottom: 2px solid grey;
+/*     border: 5px solid blue; */
   }
 
   .repetition-tiles {
     display: grid;
     grid-template-columns: repeat(auto, auto);
-/*     border: 5px solid blue; */
+/*     border: 5px solid red; */
   }
 
   .physio-exercise {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-columns: auto;
+    justify-content: center;
     padding: 5px;
     margin: 5px;
     width: 200px;
-/*     border: 5px solid yellow; */
+/*     border: 5px solid purple; */
   }
 
-  
-   .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    border-radius: 25%;
+ background-color: #f4d2e5;
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
-    /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    border-radius: 25%;
+     background-color: #adfaf8;
+/*             border: 5px solid red; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
-    /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
-    /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 200px;
     padding: 5px;
-    /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+     border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
 
   .repetitions {
     color: black;
-    font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-/*     border: 5px solid brown; */
-  }
-  
-  .more-instruction {
-   color: black;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
 /*         border: 5px solid brown; */
   }
-  
+
+  .daily-data {
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain;
+    justify-content: center;
+    /*     height: auto; */
+    max-width: 90%;
+    border: 2px solid grey;
+  }
+
+  .checkbox {
+    /*     margin: 5px; */
+    padding-bottom: 20px;
+/*             border: 5px solid purple; */
+  }
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+     position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    /*             border: 5px solid yellow; */
+  }
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+    /*         border: 5px solid green; */
     padding: 25px;
-  
+  }
+
+  .physio-name-and-exercise {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+/*     border: 5px solid green; */
   }
 
   .physio-exercise-name {
@@ -499,55 +639,48 @@ body {
     display: none;
   } */
 
-/*   .click-to-preview {
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    font-size: 30px;
-    border: 5px solid red;
-    text-align: center;
-    margin: 10px;
-  } */
+.click-to-preview {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 30px;
+  border: 5px solid red;
+  text-align: center;
+  margin: 10px;
+}
 
-/*   .mobile-device-image img {
-    object-fit: contain;
-    width: 100%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #cecece;
-  } */
+.mobile-device-image img {
+  object-fit: contain;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cecece;
+}
 
-/*   button {
-    color: #808080;
-    background-color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    border: none;
-  } */
+button {
+  color: #808080;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid #888;
+  border-radius: 50px;
+}
 
-/*   button:active {
-    color: white;
-  } */
+button:active {
+  color: white;
+}
 
 /*  FIRST ATTEMPT PREVIEW FOR MOBILE DEVICE END */
 
 /*  PREVIEW FOR MOBILE DEVICE START */
 
-button {
-  color: #808080;
-  background-color: #f9fbfa;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #888;
-  border-radius: 50px;
-  /*            border: 5px solid green; */
+.checklist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/*   border: 5px solid green; */
 }
 
 /* The Modal (background) */
@@ -727,228 +860,442 @@ button {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS MOBILE LANDSCAPE START */
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  .physio {
+  .physio-1 {
     display: grid;
-    grid-template-columns: auto;
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(1fr);
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
+    /*     justify-content: space-between; */
+    /*                         border: 5px solid green; */
     border-bottom: 2px solid grey;
-    /*                     border: 5px solid orange; */
+  }
+
+  .physio {
+    display: grid;
+    /*     grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(1fr);
+    grid-auto-columns: auto;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+    row-gap: 10px;
+    border-bottom: 2px solid grey;
+/*     border: 5px solid yellow; */
   }
 
   .repetition-tiles {
     display: grid;
-    /*     grid-template-columns: 2fr, 2fr; */
-    /*                       border: 5px solid blue; */
+    grid-template-columns: repeat(auto, auto);
+/*     border: 5px solid red; */
   }
 
   .physio-exercise {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 1fr;
+    justify-content: center;
     padding: 5px;
     margin: 5px;
-    width: 250px;
-    /*      border: 5px solid purple; */
+    width: 200px;
+/*     border: 5px solid orange; */
   }
 
-    .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #aacc74;
-/*     border: 5px solid pink; */
-  }
-  
-   .building-up-side-movement {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #f4d2e5;
-/*     border: 5px solid pink; */
-  }
-    .building-up-lean-back {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #adfaf8;
-/*     border: 5px solid pink; */
-  }
-  
-   .building-up-bench-push-ups {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #f3d5a3;
-/*     border: 5px solid pink; */
-  }
-  
-   .building-up-calf-raise {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #fc5469;
-/*     border: 5px solid pink; */
-  }
-  
-   .building-up-slow-days {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #5c81a1;
-    border-radius: 50%;
-    background-color: #b5baca;
-/*     border: 5px solid pink; */
-  }
-  
-  .repetitions {
     color: black;
-    font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-    /*       border: 5px solid brown; */
-  }
-  
-    .more-instruction {
-   color: black;
-    font-size: 18px;
-    font-weight: normal;
-    text-align: center;
-/*         border: 5px solid brown; */
-  }
-  
-  .slow-days {
-   color: black;
-    font-size: 18px;
-    font-weight: normal;
-    text-align: center;
-/*         border: 5px solid green; */
-    padding: 25px;
-  
-  }
-  
-  
-  .physio-exercise-name {
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #5c81a1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #aacc74;
+    /*     border: 5px solid pink; */
   }
 
-  video {
-    display: block;
+  .building-up-side-movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    /*     margin: 10px; */
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #f4d2e5;
+    /*     border: 5px solid pink; */
+  }
+  .building-up-lean-back {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    /*     margin: 10px; */
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #adfaf8;
+    /*     border: 5px solid pink; */
+  }
+
+  .building-up-bench-push-ups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    /*     margin: 10px; */
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #f3d5a3;
+    /*     border: 5px solid pink; */
+  }
+
+  .building-up-calf-raise {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    /*     margin: 10px; */
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #fc5469;
+    /*     border: 5px solid pink; */
+  }
+
+  .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+    /*      border: 5px solid yellow; */
+    /*     margin: 10px; */
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #b5baca;
+    /*     border: 5px solid pink; */
+  }
+
+  /*   .checklist {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border: 1px solid grey;
+  } */
+
+  .repetitions {
+    color: black;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+/*     border: 5px solid brown; */
+  }
+
+  .daily-data {
+    margin: 5px;
+    /*     padding: 5px; */
+    /*       display: flex; */
+    display: inline-block;
+    justify-content: center;
+    height: auto; /* Full viewport height */
+    width: 30%; /* Full width */
+    border: 2px solid grey;
+  }
+
+  .checkbox {
+    margin: 25px;
+/*     border: 5px solid purple; */
+  }
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    /*       width: 50%; */
-    /*                     border: 5px solid red; */
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
   }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    /*         border: 5px solid brown; */
+  }
+
+  .slow-days {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    /*         border: 5px solid green; */
+    padding: 25px;
+  }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  /*   .todays-exercises {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid grey;
+  } */
+
+  /*   .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; 
+  } */
+
+  /*   .checklist {
+    font-size: 24px;
+    text-align: left;
+        border: 5px solid green;
+  } */
+
+  /*   .form {
+    width: 20px;
+    height: 20px;
+    /*     accent-color: blue; */
+  /*     margin-right: 5px;
+    border: 5px solid green; */
 }
+
+/*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+input[type="submit"] {
+  justify-content: center;
+  background-color: #ffffe0; /* pale yellow background */
+  color: black; /* White text */
+  padding: 12px 24px; /* Vertical & horizontal padding */
+  border: 1px solidgrey; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 20px; /* Text size */
+  font-weight: 400; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+}
+
+/*   .submit-button {
+    align: center;
+  }
+   */
+/*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
+  }
+  
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+/*   ----------CHECKLIST END------------------ */
+
+.physio-exercise-name {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #5c81a1;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  /*       width: 50%; */
+  /*                     border: 5px solid red; */
+}
+
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS MOBILE LANDSCAPE FINISH */
 
 /* EXERCISE GRID: 1 COLUMN */
@@ -961,7 +1308,7 @@ button {
     row-gap: 5px;
     /*     padding-bottom: 50px; */
     /*     justify-content: space-between; */
-    /*             border: 5px solid yellow; */
+/*     border: 5px solid yellow; */
   }
 
   .exercise-tile {
@@ -978,7 +1325,7 @@ button {
     /*     padding-bottom: 15px; */
     /*     padding: 10px; */
     margin-bottom: 25px;
-    /*                 border: 10px solid pink; */
+/*     border: 10px solid pink; */
   }
 
   .exercise-box img {
@@ -1198,6 +1545,21 @@ button {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS TABLET PORTRAIT START */
 @media screen and (min-width: 481px) and (max-width: 520px) {
+  .physio-1 {
+    display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(1fr);
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
@@ -1213,164 +1575,179 @@ button {
     border-bottom: 2px solid grey;
   }
 
+  .repetition-tiles {
+    display: grid;
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(1fr);
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 20px solid grey;
+  }
+
   .physio-exercise {
     display: grid;
     grid-template-columns: repeat(auto, auto);
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-    /*      border: 5px solid yellow; */
+/*     border: 5px solid red; */
   }
 
-     .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+      border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+       border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+     border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
-    margin: 10px;
+    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+/*     border: 5px solid red; */
   }
 
   .repetitions {
@@ -1378,27 +1755,215 @@ button {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid brown; */
+/*     border: 5px solid blue; */
   }
-  
-   .more-instruction {
-   color: black;
-    font-size: 18px;
+
+  .daily-data {
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain;
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    width: auto;
+    border: 2px solid grey;
+  }
+
+  .checkbox {
+    margin: 50px;
+/*     border: 5px solid purple; */
+  }
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+    /*             border: 5px solid yellow; */
   }
-  
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+/*     border: 5px solid green; */
     padding: 25px;
-  
+  }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    font-size: 24px;
+    text-align: left;
+    /*     border: 5px solid green; */
+  }
+
+  .form {
+    width: 20px;
+    height: 20px;
+    /*     accent-color: blue; */
+    margin-right: 5px;
+    border: 5px solid green;
+  }
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+  /*   .submit-button {
+    align: center;
+  }
+   */
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
   }
   
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
+
   .physio-exercise-name {
     font-size: 20px;
     text-align: center;
@@ -1670,7 +2235,37 @@ button {
 /* -------------------------- */
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS TABLET PORTRAIT START */
+/* @media screen and (min-width: 521px) and (max-width: 600px) {
+    .physio-1 {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+                        border: 5px solid green;
+    border-bottom: 2px solid grey;
+  }
+} */
+
 @media screen and (min-width: 521px) and (max-width: 768px) {
+  .physio-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
@@ -1695,25 +2290,25 @@ button {
     /*      border: 5px solid brown; */
   }
 
-     .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1721,18 +2316,18 @@ button {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1740,110 +2335,110 @@ button {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+       border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -1851,26 +2446,214 @@ button {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
+
+  .daily-data {
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain;
+    justify-content: center;
+    /*     height: auto; */
+    max-width: 90%;
+    border: 2px solid grey;
+  }
+
+  .checkbox {
+    margin: 50px;
+/*     border: 5px solid yellow; */
+  }
+
   
+/*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
   .more-instruction {
-   color: black;
-    font-size: 18px;
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+/*                 border: 5px solid yellow; */
   }
-  
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+    /*         border: 5px solid green; */
     padding: 25px;
-  
   }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    font-size: 24px;
+    text-align: left;
+    /*     border: 5px solid green; */
+  }
+
+  .form {
+    width: 20px;
+    height: 20px;
+    /*     accent-color: blue; */
+    margin-right: 5px;
+    border: 5px solid green;
+  }
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+  /*   .submit-button {
+    align: center;
+  }
+   */
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
+  }
+  
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
 
   .physio-exercise-name {
     font-size: 20px;
@@ -2412,6 +3195,21 @@ button {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS TABLET LANDSCAPE START */
 @media screen and (min-width: 769px) and (max-width: 990px) {
+  .physio-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
@@ -2424,7 +3222,7 @@ button {
     row-gap: 10px;
     /*     justify-content: space-between; */
     border-bottom: 2px solid grey;
-    /*                             border: 5px solid green; */
+/*     border: 5px solid green; */
   }
 
   .physio-exercise {
@@ -2436,7 +3234,7 @@ button {
     /*      border: 5px solid brown; */
   }
 
-     .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2446,15 +3244,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2465,15 +3263,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2484,16 +3282,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2503,15 +3301,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2521,16 +3319,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2540,16 +3338,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2559,16 +3357,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2578,41 +3376,229 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid red; */
   }
-  
+
   .repetitions {
     color: black;
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
 
-    .more-instruction {
-   color: black;
-    font-size: 18px;
+  .daily-data {
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain;
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    width: 80%;
+    border: 2px solid grey;
+  }
+
+  .checkbox {
+    margin: 10px;
+/*     border: 5px solid purple; */
+  }
+
+/*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+/*                 border: 5px solid yellow; */
   }
   
   .slow-days {
-   color: black;
+    color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
-    padding: 25px;
-  
+/*     border: 5px solid yellow; */
+    /*     padding: 25px; */
+  }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    font-size: 24px;
+    text-align: left;
+    /*     border: 5px solid green; */
+  }
+
+  .form {
+    width: 20px;
+    height: 20px;
+    /*     accent-color: blue; */
+    margin-right: 5px;
+    border: 5px solid green;
+  }
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+  /*   .submit-button {
+    align: center;
+  }
+   */
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
   }
   
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
+
   .physio-exercise-name {
     font-size: 25px;
     text-align: center;
@@ -2892,6 +3878,21 @@ button {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS MEDIUM DEVICE LANDSCAPE START */
 @media screen and (min-width: 991px) and (max-width: 1024px) {
+  .physio-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
@@ -2916,7 +3917,7 @@ button {
     /*      border: 5px solid brown; */
   }
 
-     .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2926,15 +3927,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2945,15 +3946,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -2964,16 +3965,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -2983,15 +3984,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3001,16 +4002,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3020,16 +4021,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3039,16 +4040,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+      border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3058,39 +4059,229 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .repetitions {
     color: black;
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
-   .more-instruction {
-   color: black;
-    font-size: 18px;
+
+  .daily-data {
+    margin: 5px;
+    padding: 5px;
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    /*     justify-content: center; */
+    height: auto; /* Full viewport height */
+    width: auto; /* Full width */
+    border: 3px solid grey;
+  }
+
+  .checkbox {
+    margin: 50px;
+/*     border: 5px solid purple; */
+  }
+
+   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+  /*   button:after { */
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+    /*             border: 5px solid yellow; */
   }
-  
+
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+/*     border: 5px solid yellow; */
     padding: 25px;
-  
   }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    /*     border: 5px solid blue; */
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: left;
+    border: 1px solid grey;
+  }
+
+/*   .form {
+    width: 20px;
+    height: 20px;
+        accent-color: blue;
+    margin-right: 5px;
+        border: 5px solid green;
+  } */
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+/*     .submit-button {
+    align: center;
+  } */
+  
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
+  }
+  
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
 
   .physio-exercise-name {
     font-size: 30px;
@@ -3363,6 +4554,21 @@ button {
 /* MEDIA QUERIES LARGE DEVICE  */
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS LARGE DEVICE LANDSCAPE START */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .physio-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
@@ -3384,10 +4590,10 @@ button {
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-    /*      border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
 
-    .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3397,15 +4603,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+       border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3416,15 +4622,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3435,16 +4641,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+     border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3454,15 +4660,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3472,16 +4678,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+       border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3491,16 +4697,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3510,16 +4716,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3529,13 +4735,13 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -3543,26 +4749,212 @@ button {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid green; */
+/*     border: 5px solid green; */
   }
-  
-    .more-instruction {
-   color: black;
-    font-size: 18px;
+
+  .daily-data {
+    margin: 5px;
+    padding: 5px;
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    /*     justify-content: center; */
+    height: auto; /* Full viewport height */
+    width: auto; /* Full width */
+    border: 3px solid grey;
+  }
+
+  .checkbox {
+    margin: 50px;
+/*     border: 5px solid yellow; */
+  }
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+    /*             border: 5px solid yellow; */
   }
-  
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+    /*         border: 5px solid green; */
     padding: 25px;
-  
   }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    font-size: 24px;
+    text-align: left;
+    /*     border: 5px solid green; */
+  }
+
+  .form {
+    width: 20px;
+    height: 20px;
+        accent-color: blue;
+    margin-right: 5px;
+    border: 5px solid green;
+  }
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+  /*   .submit-button {
+    align: center;
+  }
+   */
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
+  }
+  
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
 
   .physio-exercise-name {
     font-size: 35px;
@@ -3819,19 +5211,34 @@ button {
 
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS EXTRA LARGE DEVICE LANDSCAPE START */
 @media screen and (min-width: 1201px) {
+.physio-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
+    grid-auto-columns: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    row-gap: 10px;
+    /*     justify-content: space-between; */
+/*     border: 5px solid green; */
+    border-bottom: 2px solid grey;
+  }
+
   .physio {
     display: grid;
     /*     grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: auto;
     background-color: white;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
     border-bottom: 2px solid grey;
     /*     justify-content: space-between; */
-    /*                             border: 5px solid grey; */
+    /*                             border: 5px solid green; */
   }
 
   .physio-exercise {
@@ -3840,10 +5247,10 @@ button {
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-    /*      border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
 
-    .building-up-marching {
+  .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3853,15 +5260,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+       border-radius: 25%;
     background-color: #ffe58a;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
+
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3872,15 +5279,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #d7b8f3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-   
+
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -3891,16 +5298,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #aacc74;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-side-movement {
+
+  .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3910,15 +5317,15 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+     border-radius: 25%;
     background-color: #f4d2e5;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-    .building-up-lean-back {
+  .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3928,16 +5335,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+     border-radius: 25%;
     background-color: #adfaf8;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-bench-push-ups {
+
+  .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3947,16 +5354,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #f3d5a3;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-calf-raise {
+
+  .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3966,16 +5373,16 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #fc5469;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
-  
-   .building-up-slow-days {
+
+  .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
@@ -3985,13 +5392,13 @@ button {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    color: #black;
+    color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid pink; */
+    /*     border: 5px solid pink; */
   }
 
   .repetitions {
@@ -3999,27 +5406,212 @@ button {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-    /*       border: 5px solid brown; */
+/*     border: 5px solid green; */
   }
-  
-   
-   .more-instruction {
-   color: black;
+
+  .daily-data {
+    margin: 5px;
+    padding: 5px;
+    /*       display: flex; */
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    /*     justify-content: center; */
+    height: auto; /* Full viewport height */
+    width: auto; /* Full width */
+    border: 3px solid grey;
+  }
+
+  .checkbox {
+    margin: 50px;
+/*     border: 5px solid yellow; */
+  }
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+
+  button {
+    color: #808080;
+    background-color: #f9fbfa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     font-size: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    border-radius: 50px;
+    background: white;
+    /*     transform: skewX(-10deg); */
+    position: relative;
+    width: auto;
+    -webkit-transition-duration: 3s; /* Safari */
+    transition-duration: 3s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*   .button:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: red;
+  } */
+
+  /* Use the keyframes for defining 
+   the animation */
+  /*   @keyframes shake {
+    0% {
+      transform: skewX(-10deg);
+    }
+
+    25% {
+      transform: skewX(10deg);
+    }
+
+    50% {
+      transform: skewX(-10deg);
+    }
+
+    75% {
+      transform: skewX(10deg);
+    }
+
+    100% {
+      transform: skewX(-10deg);
+    }
+  }  */
+
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION END----------------------- */
+
+  /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
+
+
+  button:after {
+    /*    #submit:after { */
+    content: "";
+    background: #aaff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -40px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 3s;
+  }
+
+  /*  button:active:after { */
+  button:active:after {
+    /* #submit:active:after { */
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  /*   -----------------SUBMIT BUTTON ANIMATION END----------------------- */
+
+  .more-instruction {
+    color: black;
+    font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+    /*             border: 5px solid yellow; */
   }
-  
+
   .slow-days {
-   color: black;
+    color: black;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid green; */
+    /*         border: 5px solid green; */
     padding: 25px;
-  
   }
+
+  /*   ----------CHECKLIST START------------------ */
+
+  .todays-exercises {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+  }
+
+  .date {
+    font-family: "Akatab";
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #ffffe0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 6px; /* Rounded corners */
+  }
+
+  .checklist {
+    font-size: 24px;
+    text-align: left;
+    /*     border: 5px solid green; */
+  }
+
+  .form {
+    width: 20px;
+    height: 20px;
+        accent-color: blue;
+    margin-right: 5px;
+    border: 5px solid green;
+  }
+
+  /*   .styled-label {
+    font-size: 300px;
+    font-family: 'Akatab';
+  } */
+
+  input[type="submit"] {
+    justify-content: center;
+    background-color: #ffffe0; /* pale yellow background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Vertical & horizontal padding */
+    border: 1px solidgrey; /* Remove default border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 20px; /* Text size */
+    font-weight: 400; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover      
+/*   transition: background-color 0.3s ease, transform 0.2s ease; */
+  }
+
+  /*   .submit-button {
+    align: center;
+  }
+   */
+  /*   .checklist {
+       margin: 20px;
+    padding-top: 40px;
+    font-size: 25px;
+    width: max;
+    height: 200px;
+        text-align: center;
+    font-weight: bold;
+    color: #black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border: 5px solid green;
+  }
+  
+ i.frame {
+    width: 100%;
+    height: auto;
+  } */
+
+  /*   ----------CHECKLIST END------------------ */
 
   .physio-exercise-name {
     font-size: 35px;
@@ -4037,7 +5629,9 @@ button {
     width: 90%;
   }
 }
-/* PHYSIO EXERCISES MOBILE RESPONSIVENESS EXTRA LARGE DEVICE FINISH */
+/* PHYSIO EXERCISES MOBILE RESPONSIVENESS LARGE DEVICE FINISH */
+
+/* EXERCISE GRID: AUTO COLUMNS */
 
 /* EXERCISE GRID: AUTO COLUMNS */
 @media screen and (min-width: 1201px) {
@@ -4109,9 +5703,9 @@ button {
     background: white;
   }
 
-  button {
+/*   button {
     display: none;
-  }
+  } */
 }
 
 /* MOBILE RESPONSIVENESS EXTRA LARGE DEVICE FINISH */
