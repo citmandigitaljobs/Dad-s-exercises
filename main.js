@@ -222,19 +222,37 @@ span.onclick = function () {
  
 // -------------------------------------------------------------
  
-const form = document.querySelector("#form-submit")
-const submitButton = document.querySelector("#submit-button")
-const scriptURL = 'https://script.google.com/macros/s/AKfycbztD4WKkUJMHkFc2-vrWc9-9vm4QGBPvxJop5VZQTf3qDzFq3I4tvo7zJ7vLH9lpBZT/exec' 
+// const form = document.querySelector("#form-submit")
+// const submitButton = document.querySelector("#submit-button")
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbztD4WKkUJMHkFc2-vrWc9-9vm4QGBPvxJop5VZQTf3qDzFq3I4tvo7zJ7vLH9lpBZT/exec' 
 
-form.addEventListener('submit', e => {
-submitButton.disabled = true
-e.preventDefault()
-let requestBody = new FormData(form)
-fetch(scriptURL, { method: 'POST', body: requestBody})
-.then(response => {
-alert('Success!', response)
-submitButton.disabled = false
-})
-.catch(error => {
-alert('Error!', error.message)
-submitButton.disabled = false
+// form.addEventListener('submit', e => {
+// submitButton.disabled = true
+// e.preventDefault()
+// let requestBody = new FormData(form)
+// fetch(scriptURL, { method: 'POST', body: requestBody})
+// .then(response => {
+// alert('Success!', response)
+// submitButton.disabled = false
+// })
+// .catch(error => {
+// alert('Error!', error.message)
+// submitButton.disabled = false
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById('form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Success!");
+    })
+  });
+});
