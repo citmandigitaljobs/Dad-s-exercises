@@ -241,8 +241,8 @@ span.onclick = function () {
 
 
 // ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
- window.addEventListener("load", function() {
-  const form = document.getElementById("form");
+  window.addEventListener("load", function() {
+  const form = document.getElementById("form-marching");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
@@ -257,3 +257,108 @@ span.onclick = function () {
   });
 });
 
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("form-balancing");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("form-offset");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formSideMovement");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formLeanBack");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formBenchPushUps");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formCalfRaise");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
