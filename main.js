@@ -241,8 +241,8 @@ span.onclick = function () {
 
 
 // ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
-  window.addEventListener("load", function() {
-  const form = document.getElementById('form');
+ window.addEventListener("load", function() {
+  const form = document.getElementById("form");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
@@ -250,9 +250,10 @@ span.onclick = function () {
     fetch(action, {
       method: 'POST',
       body: data,
-    })
-    .then(() => {
-      alert("Success!");
-    })
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
   });
 });
+
