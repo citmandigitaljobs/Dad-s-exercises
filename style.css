@@ -224,7 +224,7 @@ body {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
     border-bottom: 2px solid grey;
   }
 
@@ -240,13 +240,13 @@ body {
     margin: auto;
     row-gap: 10px;
     border-bottom: 2px solid grey;
-/*     border: 5px solid blue; */
+    /*     border: 5px solid blue; */
   }
 
   .repetition-tiles {
     display: grid;
     grid-template-columns: repeat(auto, auto);
-/*     border: 5px solid red; */
+    /*     border: 5px solid red; */
   }
 
   .physio-exercise {
@@ -257,17 +257,16 @@ body {
     padding: 5px;
     margin: 5px;
     width: 200px;
-/*     border: 5px solid purple; */
+    /*     border: 5px solid purple; */
   }
 
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -277,17 +276,16 @@ body {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #ffe58a;
-    /*     border: 5px solid pink; */
+    /*         border: 5px solid blue; */
   }
 
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -304,10 +302,9 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -324,10 +321,9 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -336,7 +332,7 @@ body {
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 25%;
- background-color: #f4d2e5;
+    background-color: #f4d2e5;
     /*     border: 5px solid pink; */
   }
 
@@ -344,9 +340,9 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -355,17 +351,17 @@ body {
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 25%;
-     background-color: #adfaf8;
-/*             border: 5px solid red; */
+    background-color: #adfaf8;
+    /*             border: 5px solid red; */
   }
 
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -375,16 +371,16 @@ body {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #f3d5a3;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -396,14 +392,14 @@ body {
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
-
-  .building-up-slow-days {
+  
+    .building-up-walk-short {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
-    padding: 5px;
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
+    /*     padding-top: 40px; */
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -411,7 +407,45 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-     border-radius: 25%;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+    /*     border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
+
+  .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
     background-color: #b5baca;
     /*     border: 5px solid pink; */
   }
@@ -421,7 +455,7 @@ body {
     font-size: 30px;
     font-weight: normal;
     text-align: center;
-/*         border: 5px solid brown; */
+    /*         border: 5px solid brown; */
   }
 
   .daily-data {
@@ -436,12 +470,30 @@ body {
     /*     height: auto; */
     max-width: 90%;
     border: 2px solid grey;
+/*                 border: 5px solid brown; */
+  }
+
+  .daily-data-landscape {
+    display: none;
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    /*     display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain; */
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    /*     width: auto; */
+    /*     border: 2px solid grey; */
+    /*     border: 5px solid blue; */
   }
 
   .checkbox {
     /*     margin: 5px; */
     padding-bottom: 20px;
-/*             border: 5px solid purple; */
+    /*             border: 5px solid purple; */
   }
 
   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
@@ -449,7 +501,7 @@ body {
   button {
     color: #808080;
     background-color: #f9fbfa;
-    padding: 15px 32px;
+    /*     padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -459,7 +511,7 @@ body {
     border: 1px solid #888;
     border-radius: 50px;
     background: white;
-     position: relative;
+    position: relative;
     width: auto;
     -webkit-transition-duration: 3s; /* Safari */
     transition-duration: 3s;
@@ -556,7 +608,7 @@ body {
     padding: 5px;
     margin: 5px;
     width: 200px;
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
   }
 
   .physio-exercise-name {
@@ -680,7 +732,7 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-/*   border: 5px solid green; */
+  /*   border: 5px solid green; */
 }
 
 /* The Modal (background) */
@@ -887,13 +939,13 @@ button:active {
     margin: auto;
     row-gap: 10px;
     border-bottom: 2px solid grey;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
 
   .repetition-tiles {
     display: grid;
     grid-template-columns: repeat(auto, auto);
-/*     border: 5px solid red; */
+    /*     border: 5px solid red; */
   }
 
   .physio-exercise {
@@ -903,17 +955,17 @@ button:active {
     padding: 5px;
     margin: 5px;
     width: 200px;
-/*     border: 5px solid orange; */
+    /*     border: 5px solid orange; */
   }
 
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -928,11 +980,11 @@ button:active {
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -941,17 +993,17 @@ button:active {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #d7b8f3;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -966,11 +1018,11 @@ button:active {
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -984,11 +1036,11 @@ button:active {
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1003,11 +1055,11 @@ button:active {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1022,11 +1074,12 @@ button:active {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    /*         height: 350px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1037,15 +1090,53 @@ button:active {
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
+  
+   .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+    /*     border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
 
   .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1054,7 +1145,7 @@ button:active {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #b5baca;
-    /*     border: 5px solid pink; */
+/*         border: 5px solid pink; */
   }
 
   /*   .checklist {
@@ -1079,19 +1170,38 @@ button:active {
   }
 
   .daily-data {
-    margin: 5px;
+    /*     margin: 5px; */
     /*     padding: 5px; */
     /*       display: flex; */
     display: inline-block;
     justify-content: center;
-    height: auto; /* Full viewport height */
-    width: 30%; /* Full width */
-    border: 2px solid grey;
+    height: 380px;
+/*     height: auto; */
+    max-width: 100%;
+    /*     box-sizing: border-box;. */
+        border: 2px solid green;
+  }
+
+  .daily-data-landscape {
+    display: none;
+    /*     margin: 5px; */
+    /*     padding: 5px; */
+    /*       display: flex; */
+    /*     display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain; */
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    /*     width: auto; */
+    /*     border: 2px solid grey; */
+    /*     border: 5px solid blue; */
   }
 
   .checkbox {
-    margin: 25px;
-/*     border: 5px solid purple; */
+    margin: 5px;
+    /*     border: 5px solid purple; */
   }
 
   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
@@ -1103,7 +1213,7 @@ button:active {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 2px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #888;
@@ -1193,10 +1303,11 @@ button:active {
 
   .slow-days {
     color: black;
+    min-height: 170px;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-    /*         border: 5px solid green; */
+    /*             border: 5px solid green; */
     padding: 25px;
   }
 
@@ -1308,7 +1419,7 @@ video {
     row-gap: 5px;
     /*     padding-bottom: 50px; */
     /*     justify-content: space-between; */
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
   }
 
   .exercise-tile {
@@ -1325,7 +1436,7 @@ video {
     /*     padding-bottom: 15px; */
     /*     padding: 10px; */
     margin-bottom: 25px;
-/*     border: 10px solid pink; */
+    /*     border: 10px solid pink; */
   }
 
   .exercise-box img {
@@ -1547,8 +1658,8 @@ video {
 @media screen and (min-width: 481px) and (max-width: 520px) {
   .physio-1 {
     display: grid;
-    /*     grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(2, 1fr);
+    /*     grid-template-columns: repeat(1fr); */
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
@@ -1556,7 +1667,7 @@ video {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+/*         border: 5px solid green; */
     border-bottom: 2px solid grey;
   }
 
@@ -1583,28 +1694,27 @@ video {
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
-    margin: auto;
+    /*     margin: auto; */
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
     border-bottom: 20px solid grey;
   }
 
   .physio-exercise {
     display: grid;
     grid-template-columns: repeat(auto, auto);
+    /*         grid-template-columns: 1fr 1fr; */
     /*     align: center; */
-    padding: 5px;
-    margin: 5px;
-/*     border: 5px solid red; */
+    /*     padding: 5px;
+    margin: 5px; */
+    /*     border: 5px solid red; */
   }
 
-  .building-up-marching {
+  /*   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
     padding-top: 40px;
     font-size: 25px;
     text-align: center;
@@ -1615,17 +1725,36 @@ video {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #ffe58a;
-    /*     border: 5px solid pink; */
+        border: 5px solid pink;
+  } */
+
+  .building-up-marching {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #ffe58a;
+/*     border: 5px solid pink; */
   }
 
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1640,11 +1769,11 @@ video {
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1659,36 +1788,36 @@ video {
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-      border-radius: 25%;
+    border-radius: 25%;
     background-color: #f4d2e5;
     /*     border: 5px solid pink; */
   }
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-       border-radius: 25%;
+    border-radius: 25%;
     background-color: #adfaf8;
     /*     border: 5px solid pink; */
   }
@@ -1696,11 +1825,11 @@ video {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1715,30 +1844,68 @@ video {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-     border-radius: 25%;
+    border-radius: 25%;
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
 
+ .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+    /*     border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }  
+  
   .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
-    /*     margin: 10px; */
-    padding-top: 40px;
-    font-size: 25px;
+    width: 200px;
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -1747,7 +1914,7 @@ video {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #b5baca;
-/*     border: 5px solid red; */
+/*         border: 5px solid red; */
   }
 
   .repetitions {
@@ -1755,26 +1922,42 @@ video {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid blue; */
+/*             border: 5px solid blue; */
   }
 
   .daily-data {
-    /*     margin: 5px; */
-    /*     padding: 5px; */
-    /*       display: flex; */
-    display: inline-block;
+/*     display: none; */
+/*         margin: 5px;
+        padding: 5px;
+          display: flex; */
+        display: inline-block;
     justify-self: center;
     align-self: center;
     object-fit: contain;
-    /*      aspect-ratio: 0.5; */
-    /*     justify-content: center; */
-    /*     height: auto; */
-    width: auto;
+/*          aspect-ratio: 0.5; */
+        justify-content: center;
+/*         height: auto; */
+    height: 400px;
+/*     /*     width: 5px; */
     border: 2px solid grey;
   }
 
+  .daily-data-landscape {
+display: none;
+/*     display: inline-block;
+    justify-self: center;
+    align-self: center;
+    object-fit: contain; */
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+/*     width: auto; */
+    /*     border: 2px solid grey; */
+/*     border: 5px solid blue; */
+  }
+
   .checkbox {
-    margin: 50px;
+    margin: 5px;
 /*     border: 5px solid purple; */
   }
 
@@ -1880,20 +2063,20 @@ video {
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
     padding: 25px;
   }
 
   /*   ----------CHECKLIST START------------------ */
 
-  .todays-exercises {
+  /*   .todays-exercises {
     margin: 15px;
     padding: 10px;
     text-align: center;
     border: 1px solid grey;
-  }
+  } */
 
-  .date {
+  /*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -1903,22 +2086,22 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 6px; /* Rounded corners */
-  }
+    border-radius: 6px;
+  } */
 
   .checklist {
     font-size: 24px;
     text-align: left;
-    /*     border: 5px solid green; */
+/*     border: 5px solid green; */
   }
 
-  .form {
+  /*   .form {
     width: 20px;
     height: 20px;
-    /*     accent-color: blue; */
+        accent-color: blue;
     margin-right: 5px;
     border: 5px solid green;
-  }
+  } */
 
   /*   .styled-label {
     font-size: 300px;
@@ -1991,7 +2174,7 @@ video {
     margin: auto;
     /*     row-gap: 10px; */
     justify-content: space-between;
-    /*     border: 5px solid yellow; */
+/*     border: 5px solid orange; */
   }
 
   .exercise-tile {
@@ -2253,17 +2436,17 @@ video {
 @media screen and (min-width: 521px) and (max-width: 768px) {
   .physio-1 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     /*     grid-template-columns: repeat(1fr); */
-    grid-auto-columns: auto;
+    /*     grid-auto-columns: auto; */
     background-color: white;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
-    margin: auto;
-    row-gap: 10px;
+    /*     padding-bottom: 15px;
+    margin-bottom: 25px; */
+    /*     margin: auto; */
+    /*     row-gap: 10px; */
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
-    border-bottom: 2px solid grey;
+    border: 5px solid green;
+/*     border-bottom: 2px solid grey; */
   }
 
   .physio {
@@ -2284,7 +2467,6 @@ video {
   .physio-exercise {
     display: grid;
     grid-template-columns: auto, auto;
-    /*     align: center; */
     padding: 5px;
     margin: 5px;
     /*      border: 5px solid brown; */
@@ -2293,11 +2475,11 @@ video {
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2306,17 +2488,17 @@ video {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #ffe58a;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2331,11 +2513,11 @@ video {
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2350,11 +2532,11 @@ video {
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2368,11 +2550,11 @@ video {
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2387,11 +2569,11 @@ video {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2406,11 +2588,11 @@ video {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 30px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -2421,22 +2603,60 @@ video {
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
-
-  .building-up-slow-days {
+  
+   .building-up-walk-short {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 35px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-       border-radius: 25%;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+    /*     border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
+
+  .building-up-slow-days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
     background-color: #b5baca;
     /*     border: 5px solid pink; */
   }
@@ -2450,26 +2670,46 @@ video {
   }
 
   .daily-data {
+/*     display: none; */
     /*     margin: 5px; */
     /*     padding: 5px; */
     /*       display: flex; */
-    display: inline-block;
+        display: inline-block;
     justify-self: center;
     align-self: center;
     object-fit: contain;
-    justify-content: center;
+    /*          aspect-ratio: 0.5; */
+    /*     justify-content: center; */
     /*     height: auto; */
-    max-width: 90%;
-    border: 2px solid grey;
+    /*     width: 20px;
+    border: 2px solid grey; */
+/*     border: 5px solid brown; */
+  }
+
+  .daily-data-landscape {
+         display: none;
+/*     margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center; */
+    /*     display: inline-block; */
+    /*     justify-self: center;
+    align-self: center;
+    object-fit: contain; */
+    /*      aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    /*     width: max; */
+    /*     border: 2px solid grey; */
+/*     border: 5px solid blue; */
   }
 
   .checkbox {
-    margin: 50px;
+    margin: 0px;
 /*     border: 5px solid yellow; */
   }
 
-  
-/*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
 
   button {
     color: #808080;
@@ -2563,7 +2803,7 @@ video {
     font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*                 border: 5px solid yellow; */
+    /*                 border: 5px solid yellow; */
   }
 
   .slow-days {
@@ -2571,20 +2811,20 @@ video {
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-    /*         border: 5px solid green; */
+/*     border: 5px solid green; */
     padding: 25px;
   }
 
   /*   ----------CHECKLIST START------------------ */
 
-  .todays-exercises {
+  /*   .todays-exercises {
     margin: 15px;
     padding: 10px;
     text-align: center;
     border: 1px solid grey;
-  }
+  } */
 
-  .date {
+  /*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -2594,22 +2834,22 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 6px; /* Rounded corners */
+    border-radius: 6px;
   }
-
-  .checklist {
+ */
+  /*   .checklist {
     font-size: 24px;
     text-align: left;
-    /*     border: 5px solid green; */
-  }
+        border: 5px solid green;
+  } */
 
-  .form {
+  /*   .form {
     width: 20px;
     height: 20px;
-    /*     accent-color: blue; */
+        accent-color: blue;
     margin-right: 5px;
     border: 5px solid green;
-  }
+  } */
 
   /*   .styled-label {
     font-size: 300px;
@@ -2652,6 +2892,11 @@ video {
     width: 100%;
     height: auto;
   } */
+
+  i.frame {
+    width: 100%;
+    height: auto;
+  }
 
   /*   ----------CHECKLIST END------------------ */
 
@@ -3197,16 +3442,14 @@ video {
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .physio-1 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /*     grid-template-columns: repeat(1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
-    /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+/*     border: 5px solid pink; */
     border-bottom: 2px solid grey;
   }
 
@@ -3222,7 +3465,7 @@ video {
     row-gap: 10px;
     /*     justify-content: space-between; */
     border-bottom: 2px solid grey;
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
   }
 
   .physio-exercise {
@@ -3231,17 +3474,17 @@ video {
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-    /*      border: 5px solid brown; */
+/*     border: 5px solid brown; */
   }
 
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3256,11 +3499,11 @@ video {
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3275,11 +3518,11 @@ video {
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3294,11 +3537,11 @@ video {
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3312,11 +3555,11 @@ video {
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3331,11 +3574,11 @@ video {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3350,11 +3593,11 @@ video {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3365,6 +3608,44 @@ video {
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
+  
+   .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+/*         border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
 
   .building-up-slow-days {
     display: grid;
@@ -3373,7 +3654,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3390,30 +3671,51 @@ video {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid brown; */
+    /*     border: 5px solid brown; */
   }
 
-  .daily-data {
+   .daily-data {
+/*     display: none; */
     /*     margin: 5px; */
     /*     padding: 5px; */
     /*       display: flex; */
-    display: inline-block;
+        display: inline-block;
     justify-self: center;
     align-self: center;
     object-fit: contain;
+     width: 200px;
+    /*          aspect-ratio: 0.5; */
+    /*     justify-content: center; */
+    /*     height: auto; */
+    /*     width: 20px;
+    border: 2px solid grey; */
+/*     border: 5px solid brown; */
+  }
+
+  .daily-data-landscape {
+         display: none;
+/*     margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center; */
+    /*     display: inline-block; */
+    /*     justify-self: center;
+    align-self: center;
+    object-fit: contain; */
     /*      aspect-ratio: 0.5; */
     /*     justify-content: center; */
     /*     height: auto; */
-    width: 80%;
-    border: 2px solid grey;
+/*         width: auto; */
+    /*     border: 2px solid grey; */
+/*     border: 5px solid blue; */
   }
 
-  .checkbox {
+/*   .checkbox {
     margin: 10px;
-/*     border: 5px solid purple; */
-  }
-
-/*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+    border: 5px solid purple;
+  } */
+ 
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
 
   button {
     color: #808080;
@@ -3507,28 +3809,30 @@ video {
     font-size: 16px;
     font-weight: normal;
     text-align: center;
-/*                 border: 5px solid yellow; */
+/*     border: 5px solid yellow; */
   }
-  
+
   .slow-days {
     color: black;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
     /*     padding: 25px; */
   }
 
+
+  
   /*   ----------CHECKLIST START------------------ */
 
-  .todays-exercises {
+  /*   .todays-exercises {
     margin: 15px;
     padding: 10px;
     text-align: center;
     border: 1px solid grey;
-  }
+  } */
 
-  .date {
+  /*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -3539,21 +3843,21 @@ video {
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 6px; /* Rounded corners */
-  }
+}
+*/
 
-  .checklist {
+/*     .checklist {
     font-size: 24px;
     text-align: left;
-    /*     border: 5px solid green; */
-  }
+        border: 5px solid green;
+  } */
 
-  .form {
+  /*   .form {
     width: 20px;
     height: 20px;
-    /*     accent-color: blue; */
-    margin-right: 5px;
+       margin-right: 5px;
     border: 5px solid green;
-  }
+  } */
 
   /*   .styled-label {
     font-size: 300px;
@@ -3561,23 +3865,23 @@ video {
   } */
 
   input[type="submit"] {
-    justify-content: center;
-    background-color: #ffffe0; /* pale yellow background */
-    color: black; /* White text */
-    padding: 12px 24px; /* Vertical & horizontal padding */
-    border: 1px solidgrey; /* Remove default border */
-    border-radius: 6px; /* Rounded corners */
-    font-size: 20px; /* Text size */
-    font-weight: 400; /* Bold text */
-    cursor: pointer; /* Pointer cursor on hover      
+  justify-content: center;
+  background-color: #ffffe0; /* pale yellow background */
+  color: black; /* White text */
+  padding: 12px 24px; /* Vertical & horizontal padding */
+  border: 1px solidgrey; /* Remove default border */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 20px; /* Text size */
+  font-weight: 400; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover      
 /*   transition: background-color 0.3s ease, transform 0.2s ease; */
-  }
+}
 
-  /*   .submit-button {
+/*   .submit-button {
     align: center;
   }
    */
-  /*   .checklist {
+/*   .checklist {
        margin: 20px;
     padding-top: 40px;
     font-size: 25px;
@@ -3597,24 +3901,24 @@ video {
     height: auto;
   } */
 
-  /*   ----------CHECKLIST END------------------ */
+/*   ----------CHECKLIST END------------------ */
 
-  .physio-exercise-name {
+/*   .physio-exercise-name {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
     color: #5c81a1;
-  }
+  } */
 
-  video {
+/*   video {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
-    /*                 border: 5px solid red; */
+                    border: 5px solid red;
     width: 90%;
-  }
-}
+  } */
+/* } */
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS TABLET LANDSCAPE FINISH */
 
 /* EXERCISE GRID: AUTO COLUMNS */
@@ -3627,7 +3931,7 @@ video {
     margin: auto;
     row-gap: 10px;
     justify-content: space-between;
-    /*     border: 5px solid green; */
+/*         border: 5px solid green; */
   }
 
   .exercise-tile {
@@ -3889,7 +4193,7 @@ video {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+    /*     border: 5px solid green; */
     border-bottom: 2px solid grey;
   }
 
@@ -3920,11 +4224,11 @@ video {
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3939,11 +4243,11 @@ video {
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3958,11 +4262,11 @@ video {
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3977,11 +4281,11 @@ video {
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -3995,11 +4299,11 @@ video {
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4014,11 +4318,11 @@ video {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4033,30 +4337,68 @@ video {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-      border-radius: 25%;
+    border-radius: 25%;
     background-color: #fc5469;
+    /*     border: 5px solid pink; */
+  }
+  
+   .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+/*         border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
     /*     border: 5px solid pink; */
   }
 
   .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4079,22 +4421,24 @@ video {
   .daily-data {
     margin: 5px;
     padding: 5px;
-    /*       display: flex; */
     display: inline-block;
     justify-self: center;
     align-self: center;
-    /*     justify-content: center; */
     height: auto; /* Full viewport height */
     width: auto; /* Full width */
     border: 3px solid grey;
   }
 
-  .checkbox {
-    margin: 50px;
+    .daily-data-landscape {
+    display: none;
+  }
+
+    .checkbox {
+    margin-bottom: 15px;
 /*     border: 5px solid purple; */
   }
 
-   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
+  /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
 
   button {
     color: #808080;
@@ -4185,19 +4529,18 @@ video {
 
   .more-instruction {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     text-align: center;
-    /*             border: 5px solid yellow; */
+/*                 border: 5px solid yellow; */
   }
-
 
   .slow-days {
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid yellow; */
+    /*     border: 5px solid yellow; */
     padding: 25px;
   }
 
@@ -4210,7 +4553,7 @@ video {
     /*     border: 5px solid blue; */
   }
 
-  .date {
+  /*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -4221,15 +4564,15 @@ video {
     border-width: 1px;
     border-color: #5c81a1;
     border-radius: 6px; /* Rounded corners */
-  }
+}
 
-  .checklist {
+/*   .checklist {
     margin: 10px;
     padding: 10px;
     font-size: 24px;
     text-align: left;
     border: 1px solid grey;
-  }
+  } */
 
 /*   .form {
     width: 20px;
@@ -4239,29 +4582,16 @@ video {
         border: 5px solid green;
   } */
 
-  /*   .styled-label {
+/*   .styled-label {
     font-size: 300px;
     font-family: 'Akatab';
   } */
 
-  input[type="submit"] {
-    justify-content: center;
-    background-color: #ffffe0; /* pale yellow background */
-    color: black; /* White text */
-    padding: 12px 24px; /* Vertical & horizontal padding */
-    border: 1px solidgrey; /* Remove default border */
-    border-radius: 6px; /* Rounded corners */
-    font-size: 20px; /* Text size */
-    font-weight: 400; /* Bold text */
-    cursor: pointer; /* Pointer cursor on hover      
-/*   transition: background-color 0.3s ease, transform 0.2s ease; */
-  }
-
 /*     .submit-button {
     align: center;
   } */
-  
-  /*   .checklist {
+
+/* .checklist {
        margin: 20px;
     padding-top: 40px;
     font-size: 25px;
@@ -4274,31 +4604,31 @@ video {
     border-width: 1px;
     border-color: #5c81a1;
     border: 5px solid green;
-  }
-  
- i.frame {
-    width: 100%;
-    height: auto;
   } */
 
-  /*   ----------CHECKLIST END------------------ */
+/*  i.frame {
+    width: 100%;
+    height: auto;
+  }  */
 
-  .physio-exercise-name {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: #5c81a1;
-  }
+/*   ----------CHECKLIST END------------------ */
 
-  video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    /*                 border: 5px solid red; */
-    width: 90%;
-  }
-}
+/* .physio-exercise-name {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #5c81a1;
+} */
+
+/* video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+                  border: 5px solid red;
+  width: 90%;
+} */
+
 /* PHYSIO EXERCISES MOBILE RESPONSIVENESS MEDIUM DEVICE LANDSCAPE FINISH */
 
 /* EXERCISE GRID: AUTO COLUMNS */
@@ -4565,7 +4895,7 @@ video {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-/*     border: 5px solid green; */
+/*         border: 5px solid green; */
     border-bottom: 2px solid grey;
   }
 
@@ -4590,24 +4920,24 @@ video {
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-/*     border: 5px solid brown; */
+    /*     border: 5px solid brown; */
   }
 
   .building-up-marching {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-       border-radius: 25%;
+    border-radius: 25%;
     background-color: #ffe58a;
     /*     border: 5px solid pink; */
   }
@@ -4615,11 +4945,11 @@ video {
   .building-up-balancing {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+   font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4628,36 +4958,36 @@ video {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #d7b8f3;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .building-up-offset {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+      font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-     border-radius: 25%;
+    border-radius: 25%;
     background-color: #aacc74;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .building-up-side-movement {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+      font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4671,18 +5001,18 @@ video {
   .building-up-lean-back {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+       font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-       border-radius: 25%;
+    border-radius: 25%;
     background-color: #adfaf8;
     /*     border: 5px solid pink; */
   }
@@ -4690,11 +5020,11 @@ video {
   .building-up-bench-push-ups {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4709,11 +5039,11 @@ video {
   .building-up-calf-raise {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+     font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4724,15 +5054,53 @@ video {
     background-color: #fc5469;
     /*     border: 5px solid pink; */
   }
+  
+   .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+/*         border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
 
   .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 5px;
-    /*      border: 5px solid yellow; */
+    /*     width: 200px; */
+    padding: 25px 5px 0px 5px;
     margin: 10px;
-    padding-top: 40px;
-    font-size: 25px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -4741,33 +5109,35 @@ video {
     border-color: #5c81a1;
     border-radius: 25%;
     background-color: #b5baca;
-    /*     border: 5px solid pink; */
+/*     border: 5px solid pink; */
   }
 
   .repetitions {
     color: black;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: normal;
     text-align: center;
 /*     border: 5px solid green; */
   }
 
-  .daily-data {
+    .daily-data {
     margin: 5px;
     padding: 5px;
-    /*       display: flex; */
     display: inline-block;
     justify-self: center;
     align-self: center;
-    /*     justify-content: center; */
     height: auto; /* Full viewport height */
     width: auto; /* Full width */
     border: 3px solid grey;
   }
 
-  .checkbox {
-    margin: 50px;
-/*     border: 5px solid yellow; */
+    .daily-data-landscape {
+    display: none;
+  }
+
+    .checkbox {
+    margin: 5px;
+/*         border: 5px solid yellow; */
   }
 
   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
@@ -4833,7 +5203,6 @@ video {
 
   /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
 
-
   button:after {
     /*    #submit:after { */
     content: "";
@@ -4861,7 +5230,7 @@ video {
 
   .more-instruction {
     color: black;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: normal;
     text-align: center;
     /*             border: 5px solid yellow; */
@@ -4885,7 +5254,7 @@ video {
     border: 1px solid grey;
   }
 
-  .date {
+/*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -4895,22 +5264,22 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 6px; /* Rounded corners */
-  }
+    border-radius: 6px; 
+  } */
 
-  .checklist {
+  /*   .checklist {
     font-size: 24px;
     text-align: left;
-    /*     border: 5px solid green; */
-  }
+        border: 5px solid green;
+  } */
 
-  .form {
+  /*   .form {
     width: 20px;
     height: 20px;
-        accent-color: blue;
+    accent-color: blue;
     margin-right: 5px;
     border: 5px solid green;
-  }
+  } */
 
   /*   .styled-label {
     font-size: 300px;
@@ -5213,17 +5582,17 @@ video {
 @media screen and (min-width: 1201px) {
 .physio-1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*     grid-template-columns: repeat(1fr); */
+    /*     grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-columns: auto;
     background-color: white;
     padding-bottom: 15px;
     margin-bottom: 25px;
     margin: auto;
     row-gap: 10px;
-    /*     justify-content: space-between; */
-/*     border: 5px solid green; */
     border-bottom: 2px solid grey;
+    /*     justify-content: space-between; */
+    /*                             border: 5px solid green; */
   }
 
   .physio {
@@ -5247,7 +5616,7 @@ video {
     /*     align: center; */
     padding: 5px;
     margin: 5px;
-/*     border: 5px solid brown; */
+    /*     border: 5px solid brown; */
   }
 
   .building-up-marching {
@@ -5257,14 +5626,14 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-       border-radius: 25%;
+    border-radius: 25%;
     background-color: #ffe58a;
     /*     border: 5px solid pink; */
   }
@@ -5276,7 +5645,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -5295,7 +5664,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -5314,14 +5683,14 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-     border-radius: 25%;
+    border-radius: 25%;
     background-color: #f4d2e5;
     /*     border: 5px solid pink; */
   }
@@ -5332,14 +5701,14 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-     border-radius: 25%;
+    border-radius: 25%;
     background-color: #adfaf8;
     /*     border: 5px solid pink; */
   }
@@ -5351,7 +5720,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -5370,7 +5739,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -5382,6 +5751,44 @@ video {
     /*     border: 5px solid pink; */
   }
 
+   .building-up-walk-short {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #E6E6FA;
+/*         border: 5px solid pink; */
+  }
+  
+   .building-up-walk-longer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+/*     width: 200px; */
+    padding: 25px 5px 0px 5px;
+    margin: 10px;
+    /*     padding-top: 40px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5c81a1;
+    border-radius: 25%;
+    background-color: #D2B48C;
+    /*     border: 5px solid pink; */
+  }
+  
   .building-up-slow-days {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -5389,7 +5796,7 @@ video {
     /*      border: 5px solid yellow; */
     margin: 10px;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -5406,25 +5813,37 @@ video {
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-/*     border: 5px solid green; */
+/*         border: 5px solid green; */
   }
 
-  .daily-data {
-    margin: 5px;
+     .daily-data {
+       display: none;
+/*            display: inline-block; */
+/*     margin: 5px;
     padding: 5px;
-    /*       display: flex; */
-    display: inline-block;
     justify-self: center;
     align-self: center;
-    /*     justify-content: center; */
-    height: auto; /* Full viewport height */
-    width: auto; /* Full width */
-    border: 3px solid grey;
+    height: auto;
+    width: auto;
+       border: 3px solid grey; */
   }
 
+    .daily-data-landscape {
+   display: inline-block;
+/*           margin: 5px;
+    padding: 5px; */
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    width: auto;
+       border: 3px solid grey;
+  }
+
+
+
   .checkbox {
-    margin: 50px;
-/*     border: 5px solid yellow; */
+    margin: 5px;
+/*         border: 5px solid yellow; */
   }
 
   /*       -----------------SUBMIT SHAKY BUTTON ANIMATION START----------------------- */
@@ -5490,7 +5909,6 @@ video {
 
   /*   -----------------SUBMIT BUTTON ANIMATION START----------------------- */
 
-
   button:after {
     /*    #submit:after { */
     content: "";
@@ -5529,20 +5947,22 @@ video {
     font-size: 25px;
     font-weight: normal;
     text-align: center;
-    /*         border: 5px solid green; */
+/*             border: 5px solid green; */
     padding: 25px;
   }
+  
+
 
   /*   ----------CHECKLIST START------------------ */
 
-  .todays-exercises {
+/*   .todays-exercises {
     margin: 15px;
     padding: 10px;
     text-align: center;
     border: 1px solid grey;
-  }
+  } */
 
-  .date {
+/*   .date {
     font-family: "Akatab";
     margin: 15px;
     padding: 10px;
@@ -5552,23 +5972,23 @@ video {
     border-style: solid;
     border-width: 1px;
     border-color: #5c81a1;
-    border-radius: 6px; /* Rounded corners */
-  }
+    border-radius: 6px; 
+  } */
 
-  .checklist {
+/*   .checklist {
     font-size: 24px;
     text-align: left;
-    /*     border: 5px solid green; */
-  }
+        border: 5px solid green;
+  } */
 
-  .form {
+/*   .form {
     width: 20px;
     height: 20px;
-        accent-color: blue;
+    accent-color: blue;
     margin-right: 5px;
     border: 5px solid green;
   }
-
+ */
   /*   .styled-label {
     font-size: 300px;
     font-family: 'Akatab';
@@ -5703,7 +6123,7 @@ video {
     background: white;
   }
 
-/*   button {
+  /*   button {
     display: none;
   } */
 }
