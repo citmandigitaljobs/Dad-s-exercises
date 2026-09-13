@@ -1698,7 +1698,7 @@ video {
     row-gap: 10px;
     /*     justify-content: space-between; */
     /*     border: 5px solid green; */
-    border-bottom: 20px solid grey;
+    border-bottom: 3px solid grey;
   }
 
   .physio-exercise {
