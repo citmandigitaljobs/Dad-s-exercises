@@ -259,7 +259,7 @@ span.onclick = function () {
 
 // ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
   window.addEventListener("load", function() {
-  const form = document.getElementById("form-balancing");
+  const form = document.getElementById("formBalancing");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
@@ -278,7 +278,7 @@ span.onclick = function () {
 
 // ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
   window.addEventListener("load", function() {
-  const form = document.getElementById("form-offset");
+  const form = document.getElementById("formOffset");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
@@ -349,6 +349,42 @@ span.onclick = function () {
 // ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
   window.addEventListener("load", function() {
   const form = document.getElementById("formCalfRaise");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formWalkShort");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    });
+    // .then(() => {
+    //   alert("Success!");
+    // })
+  });
+});
+
+
+// ------------------------------ SUBMIT FORM WITHOUT REDIRECTING TO GOOGLESHEET---------------------
+  window.addEventListener("load", function() {
+  const form = document.getElementById("formWalkLonger");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
     const data = new FormData(form);
